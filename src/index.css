@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.app {
+	background-color: #fafafa;
+}
+
+.app__posts {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.header {
+	background-color: white;
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+	object-fit: contain;
+}
+
+.header__input {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+}
+
+.header__button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    border: 1px solid lightgray;
+    border-radius: 5;
+    cursor: pointer;
+}
+
+.post {
+    max-width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.post__header {
+	display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__image {
+	width: 100%;
+	object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post__text {
+	font-weight: normal;
+    padding: 20px;
+}
+
+.post__comments {
+    padding: 20px;
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+
+.post__button {
+    flex: 0;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+    color: #6082a3;
+}
+
+.post__comment {
+    padding: 10px 0;
+    border-top: 1px solid lightgray;
+}
+
+.imageUpload {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+
+.imageUpload__container {
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+}
+
+.imageUpload__progress {
+    height: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.imageUpload__fileInput {
+    display: none;
+}
+
+.imageUpload__flex {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.imageUpload__label {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageUpload__add {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.imageUpload input {
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.imageUpload button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
